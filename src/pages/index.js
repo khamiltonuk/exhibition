@@ -12,24 +12,6 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>ÜberLeben - SurVive</h1>
-    <p>An exhibition in Berlin's Parochialkirche, January 2020</p>
-    <nav>
-      <ul>
-        <li>
-          <Link to="/events/">Events</Link>
-        </li>
-        <li>
-          <Link to="/360tour/">360 tour</Link>
-        </li>
-        <li>
-          <Link to="/catalogue/">Catalogue</Link>
-        </li>
-        <li>
-          <Link to="/artists/">Artists</Link>
-        </li>
-      </ul>
-    </nav>
     <p></p>
     <ul>
       <li>
@@ -69,13 +51,6 @@ const IndexPage = () => (
         </Link>
       </li>
     </ul>
-    <footer>
-      <p>Location:</p>
-      <p>Klosterstrasse 67 10179 Berlin</p>
-      <Link to="/page-2/">Go to page 2</Link>
-      <p>&copy; {new Date().getFullYear()} ÜberLeben</p>
-    </footer>
-    <br />
   </Layout>
 )
 
