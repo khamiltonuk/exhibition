@@ -620,3 +620,10 @@ pre tt:after {
     font-size: 100%;
   }
 }
+
+@media (min-width: 600px) {
+  .main-container {
+    width: 80%; 
+    margin: 0 auto;
+  }
+}
