@@ -2,6 +2,8 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 
+import "./header.css"
+
 const Header = ({ siteTitle }) => (
   <header>
     <div
@@ -13,7 +15,7 @@ const Header = ({ siteTitle }) => (
     >
       <h1>ÜberLeben - SurVive</h1>
       <p>An exhibition in Berlin's Parochialkirche, January 2020</p>
-      <nav>
+      <nav className="header-nav">
         <ul>
           <li>
             <Link to="/events/">Events</Link>
