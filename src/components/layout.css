@@ -626,3 +626,17 @@ pre tt:after {
     margin: 0 auto;
   }
 }
+
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  align-self: flex-start;
+}
+
+footer {
+  align-self: flex-end;
+}
