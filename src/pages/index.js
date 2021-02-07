@@ -4,7 +4,7 @@ import styles from "../styles/Home.module.css";
 export default function Home() {
   return (
     <div className={styles.container}>
-      <h1>More coming soon</h1>
+      <h1>Coming soon</h1>
     </div>
   );
 }
